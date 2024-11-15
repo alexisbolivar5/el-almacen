@@ -1,0 +1,49 @@
+<!DOCTYPE html 5
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>formulario</title>
+       
+<style>
+    body 
+    table,
+    td,
+    th {
+        text-align: center;
+        border: lpx solid black;
+         border-collapse: collapse;
+    }
+     th 
+</style>
+</head>
+
+<body>
+    <img src="C:\Users\Alexis\Pictures\Screenshots\logo.png" />
+    <h1> Ejemplo de formulario:Matriculacion en DAW</h1>
+    <form action "" method="get">
+       Nombre: <input type="sumit" name="nombre">
+       Apellidos: <input type="sumit" name="apellidos">
+       
+        <input type="radio" name="sexo" value="h">Hombre
+        <input type="radio" name="sexo" value="m">mujer
+        <p>
+        <select name="dia" size="1" multiple="multiple"></select> 
+        <option label="uno" value="30"></option>
+        <input type="hidden" id="identificador" name="nombre"/>
+        <input type="radio" id="1a11" name="mes"/>1 a 11  <input type="hidden" id="identificador" name="mes"/>
+        <input type="radio" id="1940a2024" name="año"/>1940 a 2024   <option label="dia" value="30"></option>
+
+
+        <p>
+           
+            
+                < input type="checkbox" name="Fundamentos de Hardware" checked=checked >Fundamentos de Hardware>
+                <  input type="checkbox" name="option2" checked> Opcion 2> 
+
+            
+        
+            <input type="sumit" value="Enviar">
+            
+                </form>
+                </body>    
+                </html>
